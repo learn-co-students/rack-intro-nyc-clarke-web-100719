@@ -12,7 +12,7 @@ We've learned how the web works so far using abstract concepts. Problem is, when
 Let's start by getting the mechanics of Rack working.
 
 ## Setting up Rack
-
+a
 To work with Rack we need to create a new class that responds to a single method: `#call`. All this method needs to do is return a response which consists of the status code, any headers, and the body. This can all be done using the `Rack::Response` object. 
 
 Using this, let's create a basic web app. Follow along with the below instructions. 
